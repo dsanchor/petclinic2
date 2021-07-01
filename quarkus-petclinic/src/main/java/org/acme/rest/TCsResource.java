@@ -19,7 +19,7 @@ public class TCsResource {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance get() {
         return tcs.data("active", "tcs")
-                .data("message", "Terms and conditions: Super test");
+                .data("message", "Terms and conditions: Super test2");
     }
 
 }
